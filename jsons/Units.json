@@ -1,0 +1,302 @@
+[	
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 500,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 70
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 20,
+		"uniques": ["May create improvements on water resources"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Balloonist",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["All tiles cost 1 movement","Can pass through impassable tiles",
+			"No defensive terrain bonus","Unable to capture cities","May Paradrop up to [20] tiles from inside friendly territory"],
+		"upgradesTo": "Airship",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "WaterRanged",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Privateer",
+		"unitType": "WaterMelee",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["Can move after attacking","Heals [25] damage if it kills a unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 32,
+		"cost": 225,
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus",
+			"Must set up to ranged attack","Limited Visibility"],
+		"promotions": ["Indirect Fire"]
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "WaterMelee",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"upgradesTo": "Destroyer",
+		"uniques": ["+[33]% Strength vs [City]","Double movement in coast","Consumes [1] [Coal]","Can move after attacking"]
+	},
+	{
+		"name": "Land Ironclad",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 60,
+		"cost": 375,
+		"upgradesTo": "Landship",
+		"uniques": ["Consumes [1] [Coal]","Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20
+	},
+
+	// Steam Era
+
+	{
+		"name": "Great War Infantry",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Economic Imperialism",
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 400,
+		"requiredTech": "Propulsion",
+		"hurryCostModifier": 20,
+		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Scout]",
+			"6 tiles in every direction always visible","Consumes [1] [Oil]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "WaterMelee",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Propulsion",
+		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
+			"May withdraw before melee ([50]%)","+[100]% Strength vs [WaterSubmarine]","Can move after attacking"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Battleship",
+		"unitType": "WaterRanged",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 375,
+		"requiredTech": "Eruptives",
+		"uniques": ["Ranged attacks may be performed over obstacles", "+[30]% Strength vs [City]", "Consumes [1] [Oil]"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Submarine",
+		"unitType": "WaterSubmarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "Expedition",
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack water",
+			"Can attack submarines", "Can enter ice tiles"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 70,
+		"cost": 450,
+		"requiredTech": "Landships",
+		"upgradesTo": "Land Leviathan",
+		"obsoleteTech": "Land Leviathan",
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Uranium]"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Airship",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 65,
+		"cost": 475,
+		"requiredTech": "Airships",
+		"upgradesTo": "Sky Fortress",
+		"uniques": ["+[100]% Strength vs [Armor]",
+			"All tiles cost 1 movement",
+			"Can pass through impassable tiles",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Consumes [1] [Phlogiston]"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Land Leviathan",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 85,
+		"cost": 525,
+		"requiredTech": "Land Leviathan",
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Uranium]"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Melee",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Civil Defense",
+		"uniques": ["[100]% chance to intercept air attacks",
+			"+[150]% Strength vs [air units]",
+			"+[150]% Strength vs [Scout]"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Sky Fortress",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 80,
+		"cost": 575,
+		"requiredTech": "Sky Fortress",
+		"uniques": ["All tiles cost 1 movement",
+			"Can pass through impassable tiles",
+			"+[100]% Strength vs [Armor]",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Consumes [1] [Phlogiston]"],
+		"promotions": ["Flight Deck"],
+		"hurryCostModifier": 20
+	},
+	//  Great People
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Landmark]",
+			"Great Person - [Culture]",
+			"Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research",
+			"Can construct [Academy]",
+			"Great Person - [Science]",
+			"Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]",
+			"Great Person - [Gold]",
+			"Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a wonder",
+			"Can construct [Manufactory]",
+			"Great Person - [Production]",
+			"Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable"],
+		"movement": 2
+	}
+]

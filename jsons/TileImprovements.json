@@ -1,0 +1,173 @@
+[	
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 2,
+		"turnsToBuild": 7,
+		"uniques": ["Can also be built on tiles adjacent to fresh water"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"shortcutKey": "T"
+	},
+	
+	// Resource-specific
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"gold": 1,
+		"uniques": ["Does not need removal of [Forest]"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Oil well",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 9,
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"food": 1,
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"food": 1,
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"production": 1,
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"gold": 1
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"uniques": ["Gives a defensive bonus of [50]%","Can be built outside your borders"],
+		"shortcutKey": "O"
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "Steam Power",
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Steam Power",
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"shortcutKey": "R"
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"science": 10,
+		"uniques": ["Great Improvement"]
+	},
+	{
+		"name": "Landmark",
+		"culture": 6,
+		"uniques": ["Great Improvement"]
+	},
+	{
+		"name": "Manufactory",
+		"production": 5,
+		"uniques": ["Great Improvement"]
+	},
+	{
+		"name": "Customs house",
+		"gold": 5,
+		"uniques": ["Great Improvement"]
+	},
+	{
+		"name": "Citadel",
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement", "Can be built just outside your borders"]
+	},
+	
+	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
+	{ "name": "City ruins", "uniques": ["Unpillagable"] },
+	{ "name": "City center", "uniques": ["Unpillagable"] },
+	{ "name": "Barbarian encampment", "uniques": ["Unpillagable"] }
+]
