@@ -238,7 +238,7 @@
 	},
 	{
 		"name": "Sky Fortress",
-		"unitType": "Melee",
+		"unitType": "Scout",
 		"movement": 4,
 		"strength": 80,
 		"cost": 575,
