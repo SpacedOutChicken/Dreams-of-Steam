@@ -151,8 +151,11 @@
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Air Superiority",
 		"hurryCostModifier": 20,
-		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Scout]",
-			"6 tiles in every direction always visible","Consumes [1] [Oil]"],
+		"uniques": ["[50]% chance to intercept air attacks",
+			"+[150]% Strength vs [air units]",
+			"+[150]% Strength vs [Scout]",
+			"6 tiles in every direction always visible",
+			"Consumes [1] [Oil]"],
 		"attackSound": "shot"
 	},
 	{
@@ -312,6 +315,7 @@
 		"requiredTech": "Air Superiority",
 		"uniques": ["[100]% chance to intercept air attacks",
 			"+[150]% Strength vs [air units]",
+			"+[150]% Strength vs [Scout]",
 			"6 tiles in every direction always visible",
 			"Consumes [1] [Oil]"],
 		"attackSound": "shot"
