@@ -4,25 +4,25 @@
         "name": "Selene Project", // Apollo Program
         "cost": 1500,
         "isNationalWonder": true,
-        "requiredTech": "Landships",
+        "requiredTech": "Noblesse Oblige",
         "uniques": ["Enables construction of Spaceship parts","Triggers a global alert upon completion"]
     },
     {
         "name": "SS Booster", // Cannon Barrel
         "cost": 1500,
-        "requiredTech": "Noblesse Oblige",
+        "requiredTech": "Technocracy",
         "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },
     {
         "name": "SS Cockpit", // Space Capsule
         "cost": 1500,
-        "requiredTech": "Automata",
+        "requiredTech": "Uranography",
         "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },    
     {
         "name": "SS Engine", // Firing Charge
         "cost": 2000,
-        "requiredTech": "Technocracy",
+        "requiredTech": "Infernal Combustion",
         "uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
     },
     {
@@ -213,6 +213,42 @@
             "[+1 Food] from [Citrus] tiles in this city"]
     },
     {
+        "name": "Brewery",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Tea","Salt","Wine","Sugar","Coffee"],
+		"cost": 100,
+		"gold": 2,
+        "hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Sugar] tiles in this city",
+            "[+2 Gold] from [Coffee] tiles in this city",
+            "[+2 Gold] from [Wine] tiles in this city",
+            "[+2 Gold] from [Salt] tiles in this city",
+            "[+2 Gold] from [Tea] tiles in this city"]
+    },
+    {
+        "name": "Censer Maker",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Incense","Tobacco","Perfume"],
+		"cost": 100,
+		"culture": 1,
+        "hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Incense] tiles in this city",
+            "[+1 Culture] from [Tobacco] tiles in this city",
+            "[+1 Culture] from [Perfume] tiles in this city"]
+    },
+    {
+        "name": "Gemcutter",
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Gems","Amber","Lapis Lazuli","Jade"],
+		"cost": 100,
+		"culture": 1,
+        "hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [Jade] tiles in this city",
+            "[+1 Culture] from [Lapis Lazuli] tiles in this city",
+            "[+1 Culture] from [Amber] tiles in this city",
+            "[+1 Culture] from [Gems] tiles in this city"]
+    },
+    {
 		"name": "Mint",
 		"maintenance": 0,
         "gold": 2,
@@ -277,7 +313,8 @@
         "requiredNearbyImprovedResources": ["Oil"],
 		"cost": 200,
         "hurryCostModifier": 25,
-		"uniques": ["[+3 Production, +3 Gold] from [Oil] tiles in this city"]
+		"uniques": ["[+3 Production, +3 Gold] from [Oil] tiles in this city",
+            "Provides [1] [Oil]"]
     }, 
     {
         "name": "Museum",
@@ -307,14 +344,6 @@
         "maintenance": 2,
         "uniques": ["Must not be on [Hill]",
             "+[10]% production when building [Buildings] [in this city]"]
-    },
-    {
-        "name": "Hydro Plant",
-        "cost": 360,
-        "hurryCostModifier": 0,
-        "maintenance": 3,
-        "uniques": ["Must be on [River]",
-            "[+1 Production] from [River] tiles in this city"]
     },
     {
         "name": "Factory",
@@ -391,7 +420,9 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city","Requires a [Difference Engine] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city",
+            "Requires a [Difference Engine] in all cities",
+            "+[10]% [Science] [in all cities]"],
         "requiredTech": "Analog Computation"
     },
     {
@@ -420,7 +451,8 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-        "uniques": ["Requires a [Grand Mansion] in all cities"],
+        "uniques": ["Requires a [Grand Mansion] in all cities",
+            "[+1 Gold] from every [Grand Mansion]"],
         "requiredTech": "Economic Imperialism"
     },
     {
@@ -468,7 +500,9 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
-		"uniques": ["Cost increases by [30] per owned city", "Requires a [Patent Office] in all cities"],
+		"uniques": ["Cost increases by [30] per owned city",
+            "Requires a [Patent Office] in all cities",
+            "Science gained from research agreements +[50]%"],
         "requiredTech": "Airships"
     },
     {
@@ -576,6 +610,15 @@
         "requiredTech": "Galvanomagnetism"
     },
     {
+        "name": "Hydro Plant",
+        "cost": 500,
+        "hurryCostModifier": 0,
+        "maintenance": 1,
+        "uniques": ["Must be on [River]",
+            "[+1 Production] from [River] tiles in this city"],
+        "requiredTech": "Galvanomagnetism"
+    },
+    {
         "name": "Sydney Opera House",
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},
@@ -612,7 +655,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
         "uniques": ["Requires a [Armory] in this city"],
-		"requiredTech": "Land Leviathan"
+		"requiredTech": "Military Science"
 	},
     {
         "name": "Airship Hangar",
@@ -661,7 +704,8 @@
         "cost": 750,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city",
-            "Requires a [Philanthroporium] in all cities"],
+            "Requires a [Philanthroporium] in all cities",
+            "[+1 Happiness] [in all cities]"],
         "requiredTech": "Radio"
     },
     {
@@ -690,7 +734,8 @@
         "cost": 750,
         "maintenance": 0,
 		"uniques": ["Cost increases by [30] per owned city",
-            "Requires a [Subterranean Outpost] in all cities"],
+            "Requires a [Subterranean Outpost] in all cities",
+            "+[33]% Defensive Strength for cities"],
         "requiredTech": "Subterranean Exploration"
     },
 	{
@@ -714,7 +759,8 @@
         "isNationalWonder": true,
         "cost": 1000,
         "maintenance": 0,
-        "uniques": ["Requires a [Automated Factory] in all cities"],
+        "uniques": ["Requires a [Automated Factory] in all cities",
+            "+[10]% [Production] from every [Automated Factory]"],
         "requiredTech": "Perpetual Motion"
     }
 ]

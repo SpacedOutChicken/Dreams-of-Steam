@@ -52,6 +52,7 @@
 		"strength": 25,
 		"cost": 150,
 		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Propulsion",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["Can move after attacking","Heals [25] damage if it kills a unit"],
 		"attackSound": "nonmetalhit"
@@ -64,7 +65,9 @@
 		"strength": 30,
 		"rangedStrength": 30,
 		"cost": 225,
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Automata"
 	},
 	{
 		"name": "Rifleman",
@@ -72,6 +75,7 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
+		"obsoleteTech": "Economic Imperialism",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -81,6 +85,7 @@
 		"movement": 4,
 		"strength": 32,
 		"cost": 225,
+		"obsoleteTech": "Landships",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"attackSound": "horse"
@@ -103,6 +108,7 @@
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
+		"obsoleteTech": "Propulsion",
 		"upgradesTo": "Destroyer",
 		"uniques": ["+[33]% Strength vs [City]","Double movement in coast","Consumes [1] [Coal]","Can move after attacking"]
 	},
@@ -113,6 +119,7 @@
 		"strength": 60,
 		"cost": 375,
 		"upgradesTo": "Landship",
+		"obsoleteTech": "Military Science",
 		"uniques": ["Consumes [1] [Coal]","Can move after attacking","No defensive terrain bonus"],
 		"hurryCostModifier": 20
 	},
@@ -126,6 +133,8 @@
 		"strength": 50,
 		"cost": 320,
 		"requiredTech": "Economic Imperialism",
+		"upgradesTo": "Marine",
+		"obsoleteTech": "Robotics",
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -133,15 +142,31 @@
 		"name": "Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
+		"strength": 35,
+		"rangedStrength": 35,
 		"range": 5,
 		"interceptRange": 5,
 		"cost": 400,
 		"requiredTech": "Propulsion",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Air Superiority",
 		"hurryCostModifier": 20,
 		"uniques": ["[50]% chance to intercept air attacks","+[150]% Strength vs [air units]","+[300]% Strength vs [Scout]",
 			"6 tiles in every direction always visible","Consumes [1] [Oil]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Propulsion",
+		"uniques": ["Consumes [1] [Oil]"],
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Air Superiority",
 		"attackSound": "shot"
 	},
 	{
@@ -188,7 +213,7 @@
 		"cost": 450,
 		"requiredTech": "Landships",
 		"upgradesTo": "Land Leviathan",
-		"obsoleteTech": "Land Leviathan",
+		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Uranium]"],
@@ -211,12 +236,23 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Machine Gun",
+		"unitType": "Ranged",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Automata",
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Land Leviathan",
 		"unitType": "Armor",
 		"movement": 4,
 		"strength": 85,
 		"cost": 525,
-		"requiredTech": "Land Leviathan",
+		"requiredTech": "Military Science",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Uranium]"],
@@ -242,7 +278,7 @@
 		"movement": 4,
 		"strength": 80,
 		"cost": 575,
-		"requiredTech": "Sky Fortress",
+		"requiredTech": "Air Superiority",
 		"uniques": ["All tiles cost 1 movement",
 			"Can pass through impassable tiles",
 			"+[100]% Strength vs [Armor]",
@@ -252,6 +288,47 @@
 		"promotions": ["Flight Deck"],
 		"hurryCostModifier": 20
 	},
+	{
+		"name": "Marine",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Robotics",
+		"attackSound": "shot",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight for all [Embarked] units",
+			"Defense bonus when embarked"]
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Air Superiority",
+		"uniques": ["[100]% chance to intercept air attacks",
+			"+[150]% Strength vs [air units]",
+			"6 tiles in every direction always visible",
+			"Consumes [1] [Oil]"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Air Superiority",
+		"uniques": ["Consumes [1] [Oil]"],
+		"attackSound": "shot"
+	},
+
 	//  Great People
 	{
 		"name": "Great Artist",
