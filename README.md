@@ -1,7 +1,7 @@
 # Dreams of Steam    
 Mine for Phlogiston, build airships, and conquer the world
 
-Version 0.2
+Version 0.3 - Introducing New Mars!
 
 Inspired by [Empires of the Smoky Skies](https://civilization.fandom.com/wiki/Empires_of_the_Smoky_Skies_\(Civ5\))    
 Heavily based on [k4zoo's EmpireofSmokySkies mod](https://github.com/k4zoo/EmpireOfSmokySkies)    

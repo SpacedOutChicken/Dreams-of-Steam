@@ -15,6 +15,10 @@ Buildings:
 * Shock Absorber: [springy square](https://thenounproject.com/term/springy-square/2937134/) by Zach Bogart, US
 * Space Capsule: [space capsule](https://thenounproject.com/term/space-capsule/517951/) by Souvik Bhattacharjee
 * Subterranean Colony: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
+* Water Harvester: [hydrant](https://thenounproject.com/term/hydrant/2121154/) by ibrandify, PK
+
+Nations:
+* New Mars: [Mars](https://thenounproject.com/term/mars/108/) by Public Domain Nouns
 
 Technologies:
 * Airships: [Blimp](https://thenounproject.com/term/blimp/3337681/) by Firza Alamsyah, ID
