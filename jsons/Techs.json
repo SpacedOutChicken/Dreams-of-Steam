@@ -9,7 +9,7 @@
                         "name": "Before Steam",
                         "row": 6,
                         "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
-                        "uniques": ["Starting tech","Enables embarkation for land units","Increases embarked movement +1","Enables embarked units to enter ocean tiles",
+                        "uniques": ["Starting tech","Can embark and move over Coasts and Oceans immediately","Increases embarked movement +1",
                               "Roads connect tiles across rivers","Improves movement speed on roads",
                               "Enables Open Borders agreements","Enables conversion of city production to gold",
                               "Enables conversion of city production to science","Enables Research agreements"]

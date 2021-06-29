@@ -75,8 +75,8 @@
     },
     {
         "name": "Castle",
-        "cityStrength": 12,
-        "cityHealth": 75,
+        "cityStrength": 50,
+        "cityHealth": 100,
         "cost": 40
     },
     {
