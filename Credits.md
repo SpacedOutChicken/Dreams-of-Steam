@@ -9,6 +9,7 @@ From the Noun Project:
 
 Buildings:
 * Cannon Barrel: [Cylinder](https://thenounproject.com/term/cylinder/146124/) by Chris Munroe, US
+* Censer Maker: [Incense](https://thenounproject.com/term/incense/3023566/) by Cattaleeya Thongsriphong, TH 
 * Firing Charge: [explosion](https://thenounproject.com/term/explosion/8021/) by Jop van der Kroef, NL
 * Parliament: [temple](https://thenounproject.com/term/temple/28256/) by Fabio Meroni, IT 
 * Selene Project: [Full Moon](https://thenounproject.com/term/full-moon/73076/) by iconsmind.com, GB
