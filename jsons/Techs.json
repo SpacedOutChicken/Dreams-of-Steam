@@ -233,7 +233,7 @@
                         "name": "The Grand Idea",
                         "row": 6,
                         "prerequisites": ["Technocracy", "Perpetual Motion"],
-                        "uniques": ["Can be continually researched","Free Great Person"],
+                        "uniques": ["Can be continually researched"],
                         "quote": "'Men love to wonder, and that is the seed of our science.' - Ralph Waldo Emerson"
                   }
             ]     
