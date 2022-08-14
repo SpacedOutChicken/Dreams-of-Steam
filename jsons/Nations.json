@@ -27,7 +27,8 @@
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
 			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
-			"Itzapalapa","Ayotzinco","Iztapam"]
+			"Itzapalapa","Ayotzinco","Iztapam"],
+		"spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
 	},
 	{
 		"name": "New Mars",
@@ -63,7 +64,8 @@
 		"uniques": ["Unhappiness from number of Cities doubled", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Barsoom City","Olympus Mons","Aaanothor","Tempe Terra","Gooli","Hellas Basin","Illall","Hesperia Planum","Manator",
 			"Utopia Basin","Thark","Tharsis Rise","Zor","Noachis Terra","Invak","Amazonis Planitia","Amhor","Alba Mons","Exum",
-			"Chryse Planitia","Helium","Tharsis Montes","Kaol"]
+			"Chryse Planitia","Helium","Tharsis Montes","Kaol"],
+		"spyNames": ["A-Kor", "Gor Hajus", "Bal Zak",  "Xaxak", "Carthoris", "Doxus", "Dur-Dan", "Gan-ho", "Gantun Gur", "Povak"]
 	},
     
 
