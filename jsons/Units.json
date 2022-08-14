@@ -4,15 +4,74 @@
 		"unitType": "Airship",
 		"movement": 4,
 		"strength": 5,
+		"requiredTech": "Steam Power",
 		"cost": 50,
-		"uniques": ["All tiles cost 1 movement",
+		"uniques": [
+			"All tiles cost 1 movement",
 			"No defensive terrain bonus",
 			"Unable to capture cities",
 			"May Paradrop up to [20] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit",
 			"May withdraw before melee ([50]%)",
-			"[+1] Sight"],
+			"[+1] Sight"
+		],
 		"upgradesTo": "Airship",
 		"attackSound": "nonmetalhit"
-	}
+	},
+	{
+        "name": "Cannon Barrel",
+        "cost": 1500,
+		"unitType": "Civilian",
+		"movement": 2,
+        "requiredTech": "Galvanomagnetism",
+        "uniques": [
+            "Cannot be purchased",
+            "Consumes [1] [Iron]",
+            "Only available <if [Moonshot Project] is constructed>",
+			"Can be added to [The Moonshot Cannon] in the Capital",
+			"Limited to [3] per Civilization"
+		]
+    },
+	{
+        "name": "Space Capsule",
+        "cost": 1500,
+		"unitType": "Civilian",
+		"movement": 2,
+        "requiredTech": "Uranography",
+        "uniques": [
+            "Cannot be purchased",
+            "Consumes [1] [Iron]",
+			"Only available <if [Moonshot Project] is constructed>",
+			"Can be added to [The Moonshot Cannon] in the Capital",
+			"Limited to [1] per Civilization"
+		]
+    },    
+    {
+        "name": "Firing Charge",
+        "cost": 2000,
+		"unitType": "Civilian",
+		"movement": 2,
+        "requiredTech": "Infernal Combustion",
+        "uniques": [
+            "Cannot be purchased",
+            "Consumes [1] [Luboric]",
+            "Only available <if [Moonshot Project] is constructed>",
+			"Can be added to [The Moonshot Cannon] in the Capital",
+			"Limited to [1] per Civilization"
+		]
+    },
+    {
+        "name": "Shock Absorber",
+        "cost": 2000,
+		"unitType": "Civilian",
+		"movement": 2,
+        "requiredTech": "Perpetual Motion",
+        "uniques": [
+			"Cannot be purchased",
+            "Consumes [1] [Aetherium]",
+            "Only available <if [Moonshot Project] is constructed>",
+			"Can be added to [The Moonshot Cannon] in the Capital",
+			"Limited to [1] per Civilization"
+		]
+    }
 ]

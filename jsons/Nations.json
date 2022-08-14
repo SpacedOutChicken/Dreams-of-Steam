@@ -60,7 +60,7 @@
 		"outerColor": [102,0,0],
 		"innerColor": [255,102,102],
 		"uniqueName": "Alien Biology",
-		"uniques": ["Unhappiness from number of Cities doubled", "[-50]% unhappiness from population [in all cities]"],
+		"uniques": ["Unhappiness from number of Cities doubled", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["Barsoom City","Olympus Mons","Aaanothor","Tempe Terra","Gooli","Hellas Basin","Illall","Hesperia Planum","Manator",
 			"Utopia Basin","Thark","Tharsis Rise","Zor","Noachis Terra","Invak","Amazonis Planitia","Amhor","Alba Mons","Exum",
 			"Chryse Planitia","Helium","Tharsis Montes","Kaol"]

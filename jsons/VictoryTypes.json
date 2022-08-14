@@ -1,0 +1,22 @@
+[
+	{
+        "name": "Scientific",
+        "victoryScreenHeader": "Complete all the Moonshot Cannon parts\nto win!",
+        "milestones": [
+            "Build [Moonshot Project]", "Add all [Moonshot Cannon parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+           "Cannon Barrel", "Cannon Barrel", "Cannon Barrel", "Space Capsule", "Firing Charge", "Shock Absorber"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to the Moon! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Diplomatic",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Build the League of Nations and be voted\nworld leader to win!",
+        "milestones": ["Anyone should build [League of Nations]", "Win diplomatic vote"],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
+]

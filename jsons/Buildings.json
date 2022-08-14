@@ -28,51 +28,11 @@
     },
     // Moon shot (scientific victory)
     {
-        "name": "Selene Project", // Apollo Program
+        "name": "Moonshot Project",
         "cost": 1500,
         "isNationalWonder": true,
         "requiredTech": "Noblesse Oblige",
-        "uniques": ["Enables construction of Spaceship parts",
-            "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled"]
-    },
-    {
-        "name": "SS Booster", // Cannon Barrel
-        "cost": 1500,
-        "requiredTech": "Technocracy",
-        "uniques": ["Spaceship part",
-            "Cannot be purchased",
-            "Consumes [1] [Iron]",
-            "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled"]
-    },
-    {
-        "name": "SS Cockpit", // Space Capsule
-        "cost": 1500,
-        "requiredTech": "Uranography",
-        "uniques": ["Spaceship part",
-            "Cannot be purchased",
-            "Consumes [1] [Iron]",
-            "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled"]
-    },    
-    {
-        "name": "SS Engine", // Firing Charge
-        "cost": 2000,
-        "requiredTech": "Infernal Combustion",
-        "uniques": ["Spaceship part",
-            "Cannot be purchased",
-            "Consumes [1] [Luboric]",
-            "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled"]
-    },
-    {
-        "name": "SS Stasis Chamber", // Shock Absorber
-        "cost": 2000,
-        "requiredTech": "Perpetual Motion",
-        "uniques": ["Spaceship part",
-            "Cannot be purchased",
-            "Consumes [1] [Aetherium]",
+        "uniques": ["Enables construction of Moonshot Cannon parts",
             "Triggers a global alert upon completion",
             "Hidden when [Scientific] Victory is disabled"]
     },
@@ -85,7 +45,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Technocracy",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon build start"],
 		"quote": "'A general association of nations must be formed under specific covenants for the purpose of affording mutual guarantees of political independence and territorial integrity to great and small states alike.' - Woodrow Wilson"
 	}
 ]
