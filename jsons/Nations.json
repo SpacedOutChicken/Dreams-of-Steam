@@ -4,7 +4,6 @@
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
-		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The great powers of Europe did not always meet good fortune when they set out to colonize the world. The Castilian empire met with particularly bad luck when they encountered the Aztecs. To the Castilians, the Aztecs seemed to be primitive savages, ripe for exploitation, but the Aztecs, the foreigners were naive fools with precious technology worth stealing and mastering. Once they lost their technological edge, the Castilians were easy prey.",
@@ -34,7 +33,6 @@
 		"name": "New Mars",
 		"leaderName": "Tars Tarkas",
 		"adjective": ["Martian"],
-		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "When the strange meteors fell to earth and strange beings emerged from inside, there was initial panic and a rush to arms, but people soon discovered that these strangers were not invaders, but refugees. Their homeworld of Mars (known to them as Barsoom) was dry and dying, and they wished to live on a wet, lush planet like our own. They offered marvelous technology in exchange for living space, and they soon settled in.",

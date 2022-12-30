@@ -200,6 +200,13 @@ TileSets/FantasyHex/Units/Balloonist
   orig: 32, 40
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Balloonist
+  rotate: false
+  xy: 1732, 208
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Cannon Barrel
   rotate: false
   xy: 4, 4
