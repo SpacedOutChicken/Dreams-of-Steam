@@ -1,5 +1,130 @@
 [	
 	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"upgradesTo": "Explorer",
+		"obsoleteTech": "Compass",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"requiredTech": "Compass",
+		"upgradesTo": "Ranger",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ranger",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"cost": 185,
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"requiredTech": "Rifling",
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Civil Defense",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Machine Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Civil Defense",
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Economic Imperialism",
+		"upgradesTo": "Foreign Legion",
+		"obsoleteTech": "Automata",
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Automata",
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"upgradesTo": "Heavy Howitzer",
+		"obsoleteTech": "Civil Defense",
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Heavy Howitzer",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 33,
+		"rangedStrength": 40,
+		"range": 3,
+		"cost": 375,
+		"requiredTech": "Civil Defense",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"Never appears as a Barbarian unit",
+			"Can carry [1] [Missile] units"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+
+	{
 		"name": "Balloonist",
 		"unitType": "Airship",
 		"movement": 4,
@@ -16,8 +141,184 @@
 			"[+1] Sight"
 		],
 		"upgradesTo": "Airship",
+		"obsoleteTech": "Airships",
 		"attackSound": "nonmetalhit"
 	},
+
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Anti Air",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Civil Defense",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Airship] units>","Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Sky Fortress",
+		"unitType": "Airship",
+		"movement": 4,
+		"strength": 80,
+		"cost": 575,
+		"requiredTech": "Sky Fortress",
+		"requiredResource": "Aetherium",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot",
+		"promotions": ["Flight Deck I"]
+	},
+
+	{
+		"name": "Flyer",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 18,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 200,
+		"requiredTech": "Propulsion",
+		"upgradesTo": "Triplane",
+		"obsoleteTech": "Uranography",
+		"hurryCostModifier": 20,
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+300]% Strength <vs [Airship] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Uranography",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+300]% Strength <vs [Airship] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Uranography",
+		"requiredResource": "Oil",
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Eruptives",
+		"upgradesTo": "Monitor",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Monitor",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 55,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 375,
+		"requiredTech": "Eruptives",
+		"requiredResource": "Coal",
+		"upgradesTo": "Battleship",
+		"obsoleteTech": "Land Leviathan",
+		"promotions": ["Indirect Fire"],
+		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 75,
+		"rangedStrength": 85,
+		"range": 3,
+		"cost": 525,
+		"requiredResource": "Oil",
+		"requiredTech": "Land Leviathan",
+		"uniques": ["Can carry [1] [Missile] units", "[+50]% Strength <vs cities>","Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+
+	{
+		"name": "Glide Bomber",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Robotics",
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Seismic Charge",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Subterranean Exploration",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Only available <if [Doomsday Project] is constructed>",
+			"Blast radius [1]"
+		],
+		"attackSound": "nuke"
+	},
+
+	{
+		"name": "Medic",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"cost": 275,
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Field Commander",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 400,
+		"requiredTech": "Military Science",
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"Uncapturable",
+			"Only available <in cities with a [Military Academy]>",
+			"[+1] Movement <starting from the [Airship era]>",
+			"[+1] Movement <starting from the [Future era]>"
+		]
+	},
+
+	// Moonshot parts
 	{
         "name": "Cannon Barrel",
         "cost": 1500,
@@ -40,7 +341,7 @@
         "requiredTech": "Uranography",
         "uniques": [
             "Cannot be purchased",
-            "Consumes [1] [Iron]",
+            "Consumes [1] [Aetherium]",
 			"Only available <if [Moonshot Project] is constructed>",
 			"Can be added to [The Moonshot Cannon] in the Capital",
 			"Limited to [1] per Civilization"
@@ -73,5 +374,17 @@
 			"Can be added to [The Moonshot Cannon] in the Capital",
 			"Limited to [1] per Civilization"
 		]
-    }
+    },
+	{
+		"name": "Great Entertainer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Attraction] improvement <by consuming this unit>",
+			"Great Person - [Happiness]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	}
 ]

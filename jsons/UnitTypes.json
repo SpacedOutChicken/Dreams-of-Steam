@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Anti Air",
+        "movementType": "Land"
+    },
+
+    {
+        "name": "Bomb",
+        "movementType": "Air",
+        "uniques": ["Aircraft","Self-destructs when attacking"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    }
+]

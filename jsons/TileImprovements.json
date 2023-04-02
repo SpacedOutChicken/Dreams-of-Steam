@@ -1,0 +1,8 @@
+[	
+	{
+		"name": "Attraction",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"happiness": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	}
+]

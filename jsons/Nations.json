@@ -1,12 +1,11 @@
 [
-    //Spectator
     {
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "The great powers of Europe did not always meet good fortune when they set out to colonize the world. The Castilian empire met with particularly bad luck when they encountered the Aztecs. To the Castilians, the Aztecs seemed to be primitive savages, ripe for exploitation, but the Aztecs, the foreigners were naive fools with precious technology worth stealing and mastering. Once they lost their technological edge, the Castilians were easy prey.",
+		"startIntroPart1": "The great powers of Europe did not always meet good fortune when they set out to colonize the world. The Castilian empire met with particularly bad luck when they encountered the Aztecs. To the Castilians, the Aztecs seemed to be primitive savages, ripe for exploitation, but to the Aztecs, the foreigners were naive fools with precious technology worth stealing and mastering. Once they lost their technological edge, the Castilians were easy prey.",
 		"startIntroPart2": "Now, with the Castilian empire defeated and plundered, the Aztecs have set their sights on the rest of the world...",
 
 		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",

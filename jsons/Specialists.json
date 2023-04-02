@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Entertainer",
+		"happiness": 3,
+		"greatPersonPoints": {"Great Entertainer":3},
+		"color": [255, 172, 18]
+	}
+]
