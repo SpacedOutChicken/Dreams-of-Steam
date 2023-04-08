@@ -3,7 +3,6 @@
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
-		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The great powers of Europe did not always meet good fortune when they set out to colonize the world. The Castilian empire met with particularly bad luck when they encountered the Aztecs. To the Castilians, the Aztecs seemed to be primitive savages, ripe for exploitation, but to the Aztecs, the foreigners were naive fools with precious technology worth stealing and mastering. Once they lost their technological edge, the Castilians were easy prey.",
 		"startIntroPart2": "Now, with the Castilian empire defeated and plundered, the Aztecs have set their sights on the rest of the world...",
@@ -32,7 +31,6 @@
 		"name": "New Mars",
 		"leaderName": "Tars Tarkas",
 		"adjective": ["Martian"],
-		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "When the strange meteors fell to earth and strange beings emerged from inside, there was initial panic and a rush to arms, but people soon discovered that these strangers were not invaders, but refugees. Their homeworld of Mars (known to them as Barsoom) was dry and dying, and they wished to live on a wet, lush planet like our own. They offered marvelous technology in exchange for living space, and they soon settled in.",
 		"startIntroPart2": "Their alien science makes them a formidable threat, even if they proclaim peace, but they still struggle to adapt to Earth's thick atmosphere and heavy gravity. Will they prosper on this new world, or find themselves homeless in the cosmos?",
@@ -53,7 +51,7 @@
 		"hateYes": ["That is fine.","That is good enough.","Very well..."],
 		
 		"afterPeace": "All that fighting was exhausting anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"tradeRequest": "We bestow upon you the honor of this trade offer.",
 
 		"outerColor": [102,0,0],
 		"innerColor": [255,102,102],
@@ -64,6 +62,113 @@
 			"Chryse Planitia","Helium","Tharsis Montes","Kaol"],
 		"spyNames": ["A-Kor", "Gor Hajus", "Bal Zak",  "Xaxak", "Carthoris", "Doxus", "Dur-Dan", "Gan-ho", "Gantun Gur", "Povak"]
 	},
+	{
+		"name": "Osman",
+		"leaderName": "Ahmed Tevfik Pasha",
+		"adjective": ["Osman"],
+
+        "startIntroPart1": "After dwindling for centuries, the empire of the House of Osman was reinvigorated by the petroleum industry. Every passing day seemed to bring new discoveries of its usefulness, and new discoveries of oil reserves in Osman territory. The precious resource brought trade, with its accompanying gifts of culture and science, but it also brought hostile foreign powers, eager to seize the wealth for themselves. The Osman empire was compelled to transform its wealth into military might.",
+        "startIntroPart2": "After years of successfully defending themselves, the House of Osman has grown more ambitious, setting its sights on conquest. Their vast reserves of petroleum and their long rich traditions of cultural and scientific exchange make them a serious contender on the world stage.",
+
+        "declaringWar": "Your continued insolence and failure to recognize and preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
+		"introduction": "From the magnificence of Topkapi, the Osman nation greets you, stranger! I'm Ahmed Tevfik Pasha, and I bestow upon you my welcome!",
+		"neutralHello": "Greetings!",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us do business! Would you be interested?",
+
+        "outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+
+		"uniqueName": "Oriental Riches",
+		"uniques": ["[+1 Culture] from every [Strategic resource]", "Double quantity of [Oil] produced"],
+		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
+			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
+			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Etna",
+		"leaderName": "Cesare d'Este",
+		"adjective": ["Etna"],
+
+        "startIntroPart1": "As old empires fell and new ones arose, nervous merchants looked for a way to secure stable profits in a changing world. They banded together into guilds and forged alliances of convenience which grew stronger as their mutual benefit increased. One such alliance grew to dominate local politics in the busy port cities it was based out of, to the point that the heads of the guild grew confident enough to officially seize power and declare themselves as leaders of a new nation, dedicated to the principles of free trade and commerce. Entrepreneurs of all nations found themselves a new home here, and the leaders grew prosperous enough to afford to field a powerful army to defend their interests.",
+        "startIntroPart2": "The merchants of Etna value peace and the profits it brings, but they do not hesitate to defend their own interests with sword and pistol, and they are aware of many opportunities that war can bring.",
+
+        "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
+		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
+		"defeated": "The gods have deprived us of their favour. We have been defeated.",
+		"introduction": "I greet you. I am Cesare d'Este. If you are a friend of trade, you are welcome.",
+		"neutralHello": "Hail.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I offer this, for your consideration.",
+		"outerColor": [245,248,185],
+        "innerColor": [18,84,30],
+		"uniqueName": "Free Trade",
+		"uniques": ["[+1 Gold] from each Trade Route", "Gain a free [Harbor] [in all coastal cities]"],
+		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
+			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
+			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
+			"Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"],
+        "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"]
+    },
+	{
+		"name": "Umajo",
+		"leaderName": "Sundiata",
+		"adjective": ["Umajo"],
+
+        "startIntroPart1": "The great powers of Europe looked over Africa with greedy eyes, and they sent their armies and explorers to exploit the so-called 'dark continent'. The local tribes did not take well to this, and they fought back with a skill and ferocity that surprised the invaders. However, it soon became clear to the African chieftains that their skills and pride were not enough; they needed to match the Europeans claw for claw, fighting with the same dreadful technology that the invaders wielded. They banded together to form a great union (umajo), with the cleverest tribes securing their power through scientific mastery. The union grew to a great empire, and the Europeans were forced to recognize the Africans as equals.",
+        "startIntroPart2": "The warriors of the Umajo are renowned for their fighting spirit and prowess on the battlefield, and the chiefs are wise enough to use this reputation to secure profitable treaties.",
+
+        "declaringWar": "You are an abomination to heaven and earth, the chief of ignorant savages! You must be destroyed!",
+		"attacked": "Fool! You have doomed your people to fire and destruction!",
+		"defeated": "We have been consumed by the fires of hatred and rage. Enjoy your victory in this world - you shall pay a heavy price in the next!",
+		"introduction": "I am Sundiata of the great Umajo. We are a fair people - but those who cross us will find only destruction. You would do well to avoid repeating the mistakes others have made in the past.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Can I interest you in this deal?",
+		"outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+		"uniqueName": "Kiburi",
+		"uniques": ["Damage is ignored when determining unit Strength"],
+		"cities": ["Gao","Addis Ababa","Tombouctu","Harar","Jenne","Adwa","Taghaza","Lalibela","Tondibi","Gondar","Kumbi Saleh","Axum","Kukia",
+			"Dire Dawa","Walata","Bahir Dar","Tegdaoust","Adama","Argungu","Mek'ele","Gwandu","Awasa","Kebbi","Jimma","Boussa","Jijiga","Motpi",
+			"Dessie","Bamako","Debre Berhan","Wa","Shashamane","Kayes","Debre Zeyit","Awdaghost","Sodo","Ouadane","Hosaena","Dakar","Nekemte",
+			"Tadmekket","Asella","Tekedda","Dila","Kano","Adigrat","Agadez","Debre Markos","Niamey","Kombolcha","Torodi","Debre Tabor","Ouatagouna",
+			"Sebeta","Dori","Shire","Bamba","Ambo","Segou","Negele Arsi"],
+        "spyNames": ["Mulu Ken", "Ahmadou", "Wendimu", "Ayub", "Li'ol", "Badru", "Demeke", "Bokhari", "Mulu Alem", "Guedado"]
+    },
+
+	{
+		"name": "Huaxia",
+		"leaderName": "Shen Kuo",
+		"adjective": ["Huaxia"],
+
+        "startIntroPart1": "The opium wars took a heavy toll on the east, with the great Oriental powers falling to invasion from outside and addiction from inside. The Europeans forced the Asians to sign a long series of unequal treaties, surrendering territory and economic control to the outsiders in exchange for little more than peace. The people resented these losses, and their resentment grew to determination to overthrow their oppressors and take back control over their own lands. Drawing on their deeply rooted traditions of discipline and scholarly inquiry, they advanced technologically and began pushing back against the invaders.",
+        "startIntroPart2": "The concept of Huaxia is an old one, but it has found a new meaning in the actions of ambitious Oriental leaders, eager to prove to their people that their culture is still full of strength and dignity.",
+
+        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Shen Kuo. We desire peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [28,51,119],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "New Literati",
+		"uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]"],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
     
 
     // City States

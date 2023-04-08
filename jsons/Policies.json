@@ -55,5 +55,58 @@
                 "name": "Patronage Complete"
             }
         ]
-    }
+    },
+    {
+		"name": "Venture",
+		"era": "Ancient era",
+		"uniques": [
+			"Free Social Policy"
+		],
+		"policies": [
+			{
+				"name": "Courage",
+				"uniques": [
+					"[+33]% Strength <vs [Barbarian] units>",
+                    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Voyagers",
+				"uniques": ["[+1] Movement <for [All] units>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Self-Sufficiency",
+				"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Pathfinding",
+				"uniques": [
+					"[+1] Sight <for [All] units>",
+					"[+1 Gold] from [Luxury resource] tiles [in all cities]"
+				],
+				"requires": ["Voyagers"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Homesteading",
+				"uniques": [
+					"[-25]% tile improvement construction time",
+					"[-25]% Culture cost of natural border growth [in all cities]"
+				],
+				"requires": ["Voyagers", "Self-Sufficiency"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Venture Complete"
+			}
+		]
+	}
 ]

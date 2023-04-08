@@ -63,5 +63,9 @@
     {
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Altitude Training",
+		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	}
 ]

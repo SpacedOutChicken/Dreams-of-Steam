@@ -80,7 +80,7 @@
 		"cost": 75,
 		"culture": 2,
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Incense","Tobacco","Perfume"],
+		"requiredNearbyImprovedResources": ["Tobacco","Perfume"],
 		"hurryCostModifier": 25,
 		"uniques": [
             "[+1 Culture] from [Tobacco] tiles [in this city]",
@@ -167,13 +167,47 @@
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
+	{
+        "name": "Celestial Sphere",
+		"uniqueTo": "Huaxia",
+		"replaces": "Difference Engine",
+        "production": 4,
+        "science": 3,
+		"uniques": ["[25]% Great Person generation [in this city]"],
+        "cost": 500,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Analog Computation"
+    },
     {
 		"name": "Oil Refinery",
 		"cost": 200,
 		"hurryCostModifier": 25,
-		"uniques": ["[+3 Production, +3 Gold] from [Oil] tiles [in this city]", "Provides [2] [Oil]"],
-		"requiredTech": "Biology"
+		"uniques": ["Provides [2] [Oil]"],
+		"requiredTech": "Propulsion"
 	},
+	{
+		"name": "Oil Plant",
+		"uniqueTo": "Osman",
+		"replaces": "Oil Refinery",
+		"cost": 200,
+		"production": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, +1 Gold] from [Oil] tiles [in this city]", "Provides [2] [Oil]"],
+		"requiredTech": "Propulsion"
+	},
+	{
+        "name": "Commodity Exchange",
+		"uniqueTo": "Etna",
+		"replaces": "Stock Exchange",
+        "gold": 3,
+        "percentStatBonus": {"gold": 25},
+        "specialistSlots": {"Merchant": 2},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City"],
+        "hurryCostModifier": 15,
+        "requiredTech": "Vertical Integration"
+    },
 	{
 		"name": "Hydro Plant",
 		"hurryCostModifier": 0,
@@ -183,11 +217,24 @@
 	},
 	{
 		"name": "Stadium",
+		"requiredBuilding": "Theatre",
 		"happiness": 4,
 		"specialistSlots": {"Entertainer": 1},
 		"maintenance": 2,
 		"requiredTech": "Noblesse Oblige"
 	},
+	{
+        "name": "Grandstand",
+        "replaces": "Stadium",
+        "uniqueTo": "Dalmace",
+        "requiredBuilding": "Theatre",
+        "culture": 2,
+        "happiness": 4,
+		"specialistSlots": {"Entertainer": 1},
+        "cost": 500,
+        "maintenance": 2,
+        "requiredTech": "Noblesse Oblige"
+    },
 	{
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
@@ -195,6 +242,19 @@
 		"requiredTech": "Automata",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
+	{
+        "name": "Boma",
+		"uniqueTo": "Umajo",
+		"replaces": "Military Base",
+        "requiredBuilding": "Arsenal",
+        "cost": 500,
+        "cityStrength": 13,
+        "cityHealth": 50,
+        "maintenance": 0,
+        "hurryCostModifier": 25,
+        "requiredTech": "Civil Defense",
+        "uniques": ["New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured"]
+    },
 	{
         "name": "Subterranean Outpost",
         "production": 5,
@@ -288,6 +348,39 @@
 		],
 		"requiredTech": "Propulsion",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
+	},
+	{
+		"name": "Brooklyn Bridge",
+		"gold": 5,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must be on [River]"],
+		"requiredTech": "Economic Imperialism",
+		"quote": "'It is not the work of any one man or of any one age. It is the result of the study, of the experience, and of the knowledge of many men in many ages. It is not merely a creation; it is a growth.' - Abram Hewitt"
+	},
+	{
+		"name": "Panama Canal",
+		"gold": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]","Free [Great Merchant] appears","[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Expedition",
+		"quote": "'A finer body of men has never been gathered by any nation than the men who have done the work of building the Panama Canal; the conditions under which they have lived and have done their work have been better than in any similar work ever undertaken in the tropics; they have all felt an eager pride in their work; and they have made not only America but the whole world their debtors by what they have accomplished.' - Theodore Roosevelt"
+	},
+	{
+		"name": "Sky City",
+		"science": 10,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 3},
+		"uniques": [
+			"[+200]% Production when constructing [Moonshot part] units [in this city]",
+			"Reveals the entire map"
+		],
+		"requiredTech": "Perpetual Motion",
+		"quote": "'Oh! I have slipped the surly bonds of Earth\nAnd danced the skies on laughter-silvered wings;\nSunward I've climbed, and joined the tumbling mirth\nof sun-split clouds, - and done a hundred things...'\n- John Gillespie Magee Jr."
 	},
     // Moon shot (scientific victory)
     {

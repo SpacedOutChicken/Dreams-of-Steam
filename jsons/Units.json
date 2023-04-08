@@ -1,5 +1,15 @@
 [	
 	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 340,
+		"uniques": ["Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -287,6 +297,7 @@
 		"range": 10,
 		"cost": 600,
 		"requiredTech": "Subterranean Exploration",
+		"requiredResource": "Luboric",
 		"uniques": [
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Doomsday Project] is constructed>",
@@ -326,6 +337,7 @@
 		"movement": 2,
         "requiredTech": "Galvanomagnetism",
         "uniques": [
+			"Moonshot part",
             "Cannot be purchased",
             "Consumes [1] [Iron]",
             "Only available <if [Moonshot Project] is constructed>",
@@ -340,6 +352,7 @@
 		"movement": 2,
         "requiredTech": "Uranography",
         "uniques": [
+			"Moonshot part",
             "Cannot be purchased",
             "Consumes [1] [Aetherium]",
 			"Only available <if [Moonshot Project] is constructed>",
@@ -354,6 +367,7 @@
 		"movement": 2,
         "requiredTech": "Infernal Combustion",
         "uniques": [
+			"Moonshot part",
             "Cannot be purchased",
             "Consumes [1] [Luboric]",
             "Only available <if [Moonshot Project] is constructed>",
@@ -368,6 +382,7 @@
 		"movement": 2,
         "requiredTech": "Perpetual Motion",
         "uniques": [
+			"Moonshot part",
 			"Cannot be purchased",
             "Consumes [1] [Aetherium]",
             "Only available <if [Moonshot Project] is constructed>",
