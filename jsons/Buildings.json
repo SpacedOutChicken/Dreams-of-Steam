@@ -259,7 +259,7 @@
         "name": "Subterranean Outpost",
         "production": 5,
         "science": 2,
-		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]"],
+		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]", "Damage to garrison from nuclear attacks [-75]% [in this city]"],
         "cost": 500,
         "maintenance": 1,
         "hurryCostModifier": 25,

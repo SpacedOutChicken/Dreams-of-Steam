@@ -27,7 +27,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
@@ -40,7 +40,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"attackSound": "shot"
