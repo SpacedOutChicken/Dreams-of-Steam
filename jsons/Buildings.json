@@ -27,13 +27,6 @@
 		"requiredTech": "Calendar"
 	},
     {
-		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory", "Horses"],
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
-	},
-    {
         "name": "Floating Gardens",
         "replaces": "Water Mill",
         "uniqueTo": "Aztecs",
