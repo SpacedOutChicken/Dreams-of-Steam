@@ -46,3 +46,7 @@ Units:
 * Space Capsule: [space capsule](https://thenounproject.com/term/space-capsule/517951/) by Souvik Bhattacharjee
 
 Assets from base game used whenever possible; see Unciv's [Credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md) for more information.
+
+## From Wikimedia Commons
+
+Preview image: [Steampunk prop by Molly Porkshanks Friedrich](https://commons.wikimedia.org/wiki/File:SteampunkProp(byMollyPorkshanksFriedrich).jpg)
