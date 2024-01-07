@@ -97,7 +97,7 @@
 			{
 				"name": "Homesteading",
 				"uniques": [
-					"[-25]% tile improvement construction time",
+					"[-25]% construction time for [All] improvements",
 					"[-25]% Culture cost of natural border growth [in all cities]"
 				],
 				"requires": ["Voyagers", "Self-Sufficiency"],
