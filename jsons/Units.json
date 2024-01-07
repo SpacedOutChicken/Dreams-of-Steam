@@ -310,7 +310,7 @@
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"cost": 275,
 		"requiredTech": "Biology"
 	},

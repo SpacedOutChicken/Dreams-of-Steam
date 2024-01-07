@@ -296,6 +296,15 @@
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Iron Working"
 	},
+	{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Guilds"
+	},
     {
 		"name": "Oxford University",
 		"cost": 125,
@@ -381,7 +390,7 @@
         "cost": 1500,
         "isNationalWonder": true,
         "requiredTech": "Noblesse Oblige",
-        "uniques": ["Enables construction of Moonshot Cannon parts",
+        "uniques": ["Comment [Enables construction of Moonshot Cannon parts]",
             "Triggers a global alert upon completion",
             "Hidden when [Scientific] Victory is disabled"]
     },
