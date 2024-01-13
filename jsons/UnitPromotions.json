@@ -1,4 +1,11 @@
 [
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Airship","Anti Air"],
+        "row": 0,
+        "column": 0
+    },
     //Anti Air
 	{
 		"name": "Defense Crew",
@@ -36,7 +43,7 @@
 	},
 	{
 		"name": "Early Warning System",
-		"uniques": ["[+1] Sight", "[+1] Range"],
+		"uniques": ["[+1] Sight", "[+1] Air Interception Range"],
 		"prerequisites": ["Continuous AA Protection", "Mobile Battery"],
 		"unitTypes": ["Anti Air"]
 	},
