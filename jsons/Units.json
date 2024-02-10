@@ -49,7 +49,7 @@
 	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 30,
@@ -62,7 +62,7 @@
 	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,

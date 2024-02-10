@@ -357,7 +357,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must be on [River]"],
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [River] within [2] tiles"],
 		"requiredTech": "Economic Imperialism",
 		"quote": "'It is not the work of any one man or of any one age. It is the result of the study, of the experience, and of the knowledge of many men in many ages. It is not merely a creation; it is a growth.' - Abram Hewitt"
 	},
