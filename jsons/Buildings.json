@@ -209,6 +209,15 @@
 		"requiredTech": "Galvanomagnetism"
 	},
 	{
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Galvanomagnetism"
+    },
+	{
 		"name": "Stadium",
 		"requiredBuilding": "Theatre",
 		"happiness": 4,
@@ -336,6 +345,20 @@
 		"requiredTech": "Architecture"
 	},
 	{
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Hidden when espionage is disabled",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy",
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Radio"
+    },
+	{
 		"name": "Doomsday Project",
 		"isNationalWonder": true,
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
@@ -374,6 +397,14 @@
 		"requiredTech": "Expedition",
 		"quote": "'A finer body of men has never been gathered by any nation than the men who have done the work of building the Panama Canal; the conditions under which they have lived and have done their work have been better than in any similar work ever undertaken in the tropics; they have all felt an eager pride in their work; and they have made not only America but the whole world their debtors by what they have accomplished.' - Theodore Roosevelt"
 	},
+	{
+        "name": "Panopticon",
+        "isWonder": true,
+        "uniques": ["Hidden when espionage is disabled", "[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]"],
+        "requiredTech": "Technocracy",
+		"quote": "'The Building circular - an iron cage, glazed - a glass lantern about the size of Ranelagh - The Prisoners in their Cells, occupying the Circumference - The Officers, the Centre. By Blinds, and other contrivances, the Inspectors concealed from the observation of the Prisoners: hence the sentiment of a sort of invisible omnipresence. - The whole circuit reviewable with little, or, if necessary, without any, change of place.' - Jeremy Bentham"
+    },
 	{
 		"name": "Sky City",
 		"science": 10,
