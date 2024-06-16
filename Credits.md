@@ -19,6 +19,7 @@ Buildings:
 * Doomsday Project: [meteor](https://thenounproject.com/icon/meteor-1852820/) by abderraouf omara, DZ
 * Moonshot Project: [Full Moon](https://thenounproject.com/term/full-moon/73076/) by iconsmind.com, GB
 * Panama Canal: [Canal](https://thenounproject.com/icon/canal-29572/) by Aleksandr Novolokov, NL
+* Panopticon: [panopticon](https://thenounproject.com/icon/panopticon-176669/) by Gregor Cresnar
 * Sky City: based on [utopia](https://thenounproject.com/icon/utopia-4708104/) by Saneseed
 * Water Harvester: [hydrant](https://thenounproject.com/term/hydrant/2121154/) by ibrandify, PK
 
