@@ -132,7 +132,7 @@
 		"outerColor": [14, 113, 4],
         "innerColor": [255, 163, 71],
 		"uniqueName": "Kiburi",
-		"uniques": ["Damage is ignored when determining unit Strength"],
+		"uniques": ["No damage penalty for wounded units"],
 		"cities": ["Gao","Addis Ababa","Tombouctu","Harar","Jenne","Adwa","Taghaza","Lalibela","Tondibi","Gondar","Kumbi Saleh","Axum","Kukia",
 			"Dire Dawa","Walata","Bahir Dar","Tegdaoust","Adama","Argungu","Mek'ele","Gwandu","Awasa","Kebbi","Jimma","Boussa","Jijiga","Motpi",
 			"Dessie","Bamako","Debre Berhan","Wa","Shashamane","Kayes","Debre Zeyit","Awdaghost","Sodo","Ouadane","Hosaena","Dakar","Nekemte",

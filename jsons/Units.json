@@ -147,7 +147,7 @@
 			"Unable to capture cities",
 			"May Paradrop up to [20] tiles from inside friendly territory",
 			"Never appears as a Barbarian unit",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"[+1] Sight"
 		],
 		"upgradesTo": "Airship",
