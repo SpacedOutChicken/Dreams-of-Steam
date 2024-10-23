@@ -213,7 +213,7 @@
         "cost": 300,
         "maintenance": 1,
         "hurryCostModifier": 10,
-        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredBuilding": "Constabulary",
         "requiredTech": "Galvanomagnetism"
     },
@@ -349,7 +349,7 @@
         "cost": 120,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["Hidden when espionage is disabled",
+        "uniques": ["Only available <when espionage is enabled>",
             "New spies start with [1] level(s)",
             "Promotes all spies [1] time(s)",
             "Gain an extra spy",
@@ -400,7 +400,7 @@
 	{
         "name": "Panopticon",
         "isWonder": true,
-        "uniques": ["Hidden when espionage is disabled", "[-99]% enemy spy effectiveness [in this city]",
+        "uniques": ["Only available <when espionage is enabled>", "[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"],
         "requiredTech": "Technocracy",
 		"quote": "'The Building circular - an iron cage, glazed - a glass lantern about the size of Ranelagh - The Prisoners in their Cells, occupying the Circumference - The Officers, the Centre. By Blinds, and other contrivances, the Inspectors concealed from the observation of the Prisoners: hence the sentiment of a sort of invisible omnipresence. - The whole circuit reviewable with little, or, if necessary, without any, change of place.' - Jeremy Bentham"
@@ -426,7 +426,7 @@
         "requiredTech": "Noblesse Oblige",
         "uniques": ["Comment [Enables construction of Moonshot Cannon parts]",
             "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled"]
+            "Only available <when [Scientific] Victory is enabled>"]
     },
 
     // Diplomatic victory
@@ -437,7 +437,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Technocracy",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon build start"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon build start"],
 		"quote": "'A general association of nations must be formed under specific covenants for the purpose of affording mutual guarantees of political independence and territorial integrity to great and small states alike.' - Woodrow Wilson"
 	}
 ]
