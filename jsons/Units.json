@@ -339,7 +339,7 @@
         "uniques": [
 			"Moonshot part",
             "Cannot be purchased",
-            "Consumes [1] [Iron]",
+            "Consumes [1] [Aetherium]",
             "Only available <if [Moonshot Project] is constructed>",
 			"Can be added to [The Moonshot Cannon] in the Capital",
 			"Limited to [3] per Civilization"
