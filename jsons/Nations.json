@@ -82,7 +82,7 @@
 		"innerColor": [255, 255, 255],
 
 		"uniqueName": "Oriental Riches",
-		"uniques": ["[+1 Culture] from every [Strategic resource]", "Double quantity of [Oil] produced"],
+		"uniques": ["[+1 Culture] from every [Strategic resource]", "[+100]% [Oil] resource production"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
