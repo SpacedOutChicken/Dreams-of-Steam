@@ -145,7 +145,7 @@
 			"All tiles cost 1 movement",
 			"No defensive terrain bonus",
 			"Unable to capture cities",
-			"May Paradrop up to [20] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [20] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [50]% chance>",
 			"[+1] Sight"
