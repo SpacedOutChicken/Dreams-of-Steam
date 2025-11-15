@@ -7,10 +7,11 @@
 		"startIntroPart1": "The great powers of Europe did not always meet good fortune when they set out to colonize the world. The Castilian empire met with particularly bad luck when they encountered the Aztecs. To the Castilians, the Aztecs seemed to be primitive savages, ripe for exploitation, but to the Aztecs, the foreigners were naive fools with precious technology worth stealing and mastering. Once they lost their technological edge, the Castilians were easy prey.",
 		"startIntroPart2": "Now, with the Castilian empire defeated and plundered, the Aztecs have set their sights on the rest of the world...",
 
-		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"declaringWar": "The Sun God demands sacrifices, and you will do nicely. Xi-miqa-can! Prepare for your death!",
+		"attacked": "Magnificent! Let the blood flow in raging torrents!",
 		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+		"denounced": "You're not strong, you're not brave, and clearly you're not wise.",
+		"introduction": "I see another beating heart for my sacrificial fire before me... But since I am in a good mood I will spare you from it. For now.",
 
 		"neutralHello": "Welcome, friend.",
 		"hateHello": "What do you want?",
@@ -35,10 +36,11 @@
 		"startIntroPart1": "When the strange meteors fell to earth and strange beings emerged from inside, there was initial panic and a rush to arms, but people soon discovered that these strangers were not invaders, but refugees. Their homeworld of Mars (known to them as Barsoom) was dry and dying, and they wished to live on a wet, lush planet like our own. They offered marvelous technology in exchange for living space, and they soon settled in.",
 		"startIntroPart2": "Their alien science makes them a formidable threat, even if they proclaim peace, but they still struggle to adapt to Earth's thick atmosphere and heavy gravity. Will they prosper on this new world, or find themselves homeless in the cosmos?",
 		
-		"declaringWar": "Your water belongs to us now. Surrender or perish!",
-		"attacked": "Why do you not value peace?",
-		"defeated": "How is it possible that those Apes destroyed us?",
-		"introduction": "We come in peace!",
+		"declaringWar": "Your water belongs to us now. Surrender now or perish!",
+		"attacked": "Fine. The people of Barsuum will make you regret refusing the value of peace!",
+		"defeated": "It can't be... We of Barsuum were supposed to be superior to those apes... How could we have lost?",
+		"denounced": "If you ask me, you apes are revolting creatures, too. Always hating those who are 'not you'.",
+		"introduction": "We speak your language, people of Jarsoom (Earth). We come in peace... as long as you respect our existence.",
 		
 		"neutralHello": "How are you doing?",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
@@ -51,7 +53,7 @@
 		"hateYes": ["That is fine.","That is good enough.","Very well..."],
 		
 		"afterPeace": "All that fighting was exhausting anyway.",
-		"tradeRequest": "We bestow upon you the honor of this trade offer.",
+		"tradeRequest": "People of Jarsoom, we bestow upon you the honor of this trade offer.",
 
 		"outerColor": [102,0,0],
 		"innerColor": [255,102,102],
@@ -70,10 +72,11 @@
         "startIntroPart1": "After dwindling for centuries, the empire of the House of Osman was reinvigorated by the petroleum industry. Every passing day seemed to bring new discoveries of its usefulness, and new discoveries of oil reserves in Osman territory. The precious resource brought trade, with its accompanying gifts of culture and science, but it also brought hostile foreign powers, eager to seize the wealth for themselves. The Osman empire was compelled to transform its wealth into military might.",
         "startIntroPart2": "After years of successfully defending themselves, the House of Osman has grown more ambitious, setting its sights on conquest. Their vast reserves of petroleum and their long rich traditions of cultural and scientific exchange make them a serious contender on the world stage.",
 
-        "declaringWar": "Your continued insolence and failure to recognize and preeminence leads us to war.",
-		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
-		"introduction": "From the magnificence of Topkapi, the Osman nation greets you, stranger! I'm Ahmed Tevfik Pasha, and I bestow upon you my welcome!",
+        "declaringWar": "As the Great Sultan of Osman, I cannot tolerate your continued insolence and failure to recognize our preeminence. May it be war, starting today.",
+		"attacked": "So be it. Let the world witness the incontestable might of my armies, carrying the imperiture glory of the Osman Empire.",
+		"defeated": "Enough! You have won. My armies and my cities are in ruin. Let me resign, so that this useless war may be over.",
+		"denounced": "Ha! I never liked your worthless trinklets, your putrid gifts and your staunch food baskets anyway!",
+		"introduction": "Hail, noble leader! I am Ahmed Tevfik Pasha, Great Sultan of the empire of Osman. From the magnificence of the Topkapi, I toast the beginning of our alliance with warm boza!",
 		"neutralHello": "Greetings!",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Let us do business! Would you be interested?",
@@ -97,10 +100,11 @@
         "startIntroPart1": "As old empires fell and new ones arose, nervous merchants looked for a way to secure stable profits in a changing world. They banded together into guilds and forged alliances of convenience which grew stronger as their mutual benefit increased. One such alliance grew to dominate local politics in the busy port cities it was based out of, to the point that the heads of the guild grew confident enough to officially seize power and declare themselves as leaders of a new nation, dedicated to the principles of free trade and commerce. Entrepreneurs of all nations found themselves a new home here, and the leaders grew prosperous enough to afford to field a powerful army to defend their interests.",
         "startIntroPart2": "The merchants of Etna value peace and the profits it brings, but they do not hesitate to defend their own interests with sword and pistol, and they are aware of many opportunities that war can bring.",
 
-        "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
-		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
-		"defeated": "The gods have deprived us of their favour. We have been defeated.",
-		"introduction": "I greet you. I am Cesare d'Este. If you are a friend of trade, you are welcome.",
+        "declaringWar": "There are indeed many roads to profit. One of them is certainly war, and the one today cannot be avoided anymore.",
+		"attacked": "So be it. I'm willing to spend every soldier's life as wisely as possible, as if they were coins.",
+		"defeated": "I worked so hard to make the Etna a great nation, and instead I have to watch as the House of Este is being wiped out... Take my head. I'd rather die than live with this shame.",
+		"denounced": "You think us inferior only because of your words? I'll let you know, there rather are fields where we easily ovewhelm you!",
+		"introduction": "Saluti, allow me to introduce myself. I am Cesare d'Este, leader of the Etna. I trust you came here for friendship and to share riches?",
 		"neutralHello": "Hail.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "I offer this, for your consideration.",
@@ -122,9 +126,10 @@
         "startIntroPart1": "The great powers of Europe looked over Africa with greedy eyes, and they sent their armies and explorers to exploit the so-called 'dark continent'. The local tribes did not take well to this, and they fought back with a skill and ferocity that surprised the invaders. However, it soon became clear to the African chieftains that their skills and pride were not enough; they needed to match the Europeans claw for claw, fighting with the same dreadful technology that the invaders wielded. They banded together to form a great union (umajo), with the cleverest tribes securing their power through scientific mastery. The union grew to a great empire, and the Europeans were forced to recognize the Africans as equals.",
         "startIntroPart2": "The warriors of the Umajo are renowned for their fighting spirit and prowess on the battlefield, and the chiefs are wise enough to use this reputation to secure profitable treaties.",
 
-        "declaringWar": "You are an abomination to heaven and earth, the chief of ignorant savages! You must be destroyed!",
-		"attacked": "Fool! You have doomed your people to fire and destruction!",
-		"defeated": "We have been consumed by the fires of hatred and rage. Enjoy your victory in this world - you shall pay a heavy price in the next!",
+        "declaringWar": "We do enjoy peace, but we wage war only when it is necessary. And today, it has been made very necessary.",
+		"attacked": "In that case, I only advise you to be careful: the fly in a hurry may fall into the milk and drown.",
+		"defeated": "You have fought well. To save my people and my cities from destruction, I offer my surrender.",
+		"denounced": "To me, you are like a Nigerian pretending 'prince' that requests that I pay an absurd amount of money for his ransom. A fraud, in other words.",
 		"introduction": "I am Sundiata of the great Umajo. We are a fair people - but those who cross us will find only destruction. You would do well to avoid repeating the mistakes others have made in the past.",
 		"neutralHello": "Greetings.",
 		"hateHello": "Oh, it's you.",
@@ -149,12 +154,13 @@
         "startIntroPart1": "The opium wars took a heavy toll on the east, with the great Oriental powers falling to invasion from outside and addiction from inside. The Europeans forced the Asians to sign a long series of unequal treaties, surrendering territory and economic control to the outsiders in exchange for little more than peace. The people resented these losses, and their resentment grew to determination to overthrow their oppressors and take back control over their own lands. Drawing on their deeply rooted traditions of discipline and scholarly inquiry, they advanced technologically and began pushing back against the invaders.",
         "startIntroPart2": "The concept of Huaxia is an old one, but it has found a new meaning in the actions of ambitious Oriental leaders, eager to prove to their people that their culture is still full of strength and dignity.",
 
-        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
-		"attacked": "Fool! I will disembowel you all!",
-		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
-		"introduction": "Greetings, I am Shen Kuo. We desire peace and development. You leave us alone, we'll leave you alone.",
+        "declaringWar": "The time for talk is over; now it is time for war. Come morning, many mothers and wives will weep for their lost sons and husbands.",
+		"attacked": "Too bad. I was hoping you would listen to reason, but if you desperately wish to personally meet your ancestors, I will happily oblige.",
+		"defeated": "Know this: I do not regret ever fighting against you. There is simply no place left for this old warrior.",
+		"denounced": "You are pratically begging for me to humiliate you in the worst possible way imaginable. I hope you will learn a lesson.",
+		"introduction": "You stand before Shen Kuo, Celestial Emperor of the Huaxia Dominion. Have you come to my presence to share prosperity? As long as the terms are favorable to us, we can talk.",
 		"neutralHello": "How are you today?",
-		"hateHello": "Oh. It's you?",
+		"hateHello": "Oh. It's you.",
 		"tradeRequest": "My friend, do you think you can accept this request?",
 
         "outerColor": [28,51,119],
@@ -169,6 +175,74 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
 
     },
+    
+
+	// New Nation project - The Zebasi
+    
+
+    {
+		"name": "Zebasi",
+		"leaderName": "Aminzala",
+		"adjective": ["Zebasi"],
+
+        "startIntroPart1": "From the southern reaches of the continent of Africa, a once-nomadic tribe of sheperds evolved into a mighty kingdom, called Zebasi. Their founder is Shakaga the Cruel, one who introduced a revolutionary way to wage war among the tribes: weapons, tactics and the general way to conduct battles. A means of settling minor disputes became an activity of slaughter and conquest. This helped Shakaga dominate the area of Natal, but brought the wrath of more neighboring tribes; although the battle against them ended in a victory, he also was among the dead, and was succeded by his daughter Aminzala. This High Queen used diplomacy to expand the Zebasi dominion, thus strenghtening it to a force to be reckoned with in every field.",
+        "startIntroPart2": "Although small, the kingdom of Zebasi is full of fierce and loyal warriors. When in battle, they prove themselves to be virtually unstoppable.",
+
+        "declaringWar": "I am afraid that the time to cohesist has lasted long enough. Let this at least entertain a lesson to our warriors.",
+		"attacked": "My proud warriors know no fear, not against you. Try not to run when you see them.",
+		"defeated": "You have won this war in name only. ",
+		"denounced": "Why am I talking to you is still a wonder to me. It matters not: all you do is waste breath and patience.",
+		"introduction": "State your name, stranger. My name is Aminzala, High Queen of the Zebasi Kingdom. We shall soon see if you deserve to cohesist with us, let alone to be our ally.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+		"outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+
+		"uniqueName": "Heritage of Shakaga",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>""],
+		"cities": ["Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka",
+			"Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Ishipezi",
+			"Masotsheni","Mtunzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu",
+			"Ingwavuma","Hluluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"],
+        "spyNames": ["Ayanda", "Bongani", "Lethu", "Mandla", "Naledi", "Zinhle", "Bonginkosi", "Lwandle", "Hlengiwe", "Jabulani"]
+
+    },
+
+	 //New Nation project - The Edo
+    
+
+    {
+		"name": "Edo",
+		"leaderName": "Matsudaira Yoshimasa",
+		"adjective": ["Edo"],
+
+        "startIntroPart1": "The county of Edo had been devastated for over a century by the Sengoku Jidai, a sort of a massive civil war where dozens of feudal clans fought against each other to succeed the remaints of the previous Shogunate. Several clans, like the Chosokame, the Otomo, the Oda and the Takeda, tried and failed to take a foothold of the seat of Kyoto, and it took the victory of Matsudaira Ietsuna at the brutal battle of Sekigahara against the Oda-Toyotomi coalition to finally bring peace. Since then, for over 150 years, the Tokugawa Shogunate has ruled from a new capital called Edo, to reflect the name of the nation and distinguish it from a new era, different from the one where brother fought brother.",
+        "startIntroPart2": "Now Edo has decided to send explorers outside of it. Their warriors are ready to defend their hard-earned peace, and the people are willing to keep up to the rest of the world, which approaches the Steam Age.",
+
+        "declaringWar": "As the Shogun, it falls to me to discipline you. Bow to the Matsudaira of Edo, and you may be spared.",
+		"attacked": "Do you realize that no one has ever defeated the Matsudaira? Or had you not heard? Then your lesson begins now.",
+		"defeated": "Under a dark cloud of death, a dynasty fades. Even the Matsudaira cannot resist this dark destiny.",
+		"denounced": "It is only by an inch of patience that my sword stays in the scabbard, else your head would have rolled from your shoulders.",
+		"introduction": "Greetings. You must be the newest servant of the Matsudaira of the Edo. No? Fine, I might use an ally for the time being.",
+		"neutralHello": "How are you today, my ally?",
+		"hateHello": "Choose your words well, my sword thirsts for blood.",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        	"outerColor": [8, 8, 166],
+		"innerColor": [249, 247, 3],
+
+		"uniqueName": "The Shining Golden Sun",
+		"uniques": ["[+1 Science] from each Trade Route", "[+1 Culture] from each City Center"],
+		"cities": ["Edo","Kyoto","Osaka","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Yamato","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen",
+			"Echizen","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka",
+			"Aomori","Kamakura","Kochi","Naha"],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+
+    },
+	//
     
 
     // City States
@@ -254,3 +328,4 @@
 		"cities": ["Valletta"]
 	}
 ]
+
