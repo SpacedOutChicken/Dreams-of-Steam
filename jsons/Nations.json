@@ -175,74 +175,7 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
 
     },
-    
 
-	// New Nation project - The Zebasi
-    
-
-    {
-		"name": "Zebasi",
-		"leaderName": "Aminzala",
-		"adjective": ["Zebasi"],
-
-        "startIntroPart1": "From the southern reaches of the continent of Africa, a once-nomadic tribe of sheperds evolved into a mighty kingdom, called Zebasi. Their founder is Shakaga the Cruel, one who introduced a revolutionary way to wage war among the tribes: weapons, tactics and the general way to conduct battles. A means of settling minor disputes became an activity of slaughter and conquest. This helped Shakaga dominate the area of Natal, but brought the wrath of more neighboring tribes; although the battle against them ended in a victory, he also was among the dead, and was succeded by his daughter Aminzala. This High Queen used diplomacy to expand the Zebasi dominion, thus strenghtening it to a force to be reckoned with in every field.",
-        "startIntroPart2": "Although small, the kingdom of Zebasi is full of fierce and loyal warriors. When in battle, they prove themselves to be virtually unstoppable.",
-
-        "declaringWar": "I am afraid that the time to cohesist has lasted long enough. Let this at least entertain a lesson to our warriors.",
-		"attacked": "My proud warriors know no fear, not against you. Try not to run when you see them.",
-		"defeated": "You have won this war in name only. ",
-		"denounced": "Why am I talking to you is still a wonder to me. It matters not: all you do is waste breath and patience.",
-		"introduction": "State your name, stranger. My name is Aminzala, High Queen of the Zebasi Kingdom. We shall soon see if you deserve to cohesist with us, let alone to be our ally.",
-		"neutralHello": "How are you today?",
-		"hateHello": "Oh. It's you?",
-		"tradeRequest": "My friend, do you think you can accept this request?",
-
-		"outerColor": [255, 252, 3],
-		"innerColor": [83, 0, 208],
-
-		"uniqueName": "Heritage of Shakaga",
-		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>""],
-		"cities": ["Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka",
-			"Babanango","Khangela","KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Ishipezi",
-			"Masotsheni","Mtunzini","Nyakamubi","Dumazulu","Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu",
-			"Ingwavuma","Hluluwe","Matubatuba","Mhlahlandlela","Mthatha","Maseru","Lobamba","Qunu"],
-        "spyNames": ["Ayanda", "Bongani", "Lethu", "Mandla", "Naledi", "Zinhle", "Bonginkosi", "Lwandle", "Hlengiwe", "Jabulani"]
-
-    },
-
-	 //New Nation project - The Edo
-    
-
-    {
-		"name": "Edo",
-		"leaderName": "Matsudaira Yoshimasa",
-		"adjective": ["Edo"],
-
-        "startIntroPart1": "The county of Edo had been devastated for over a century by the Sengoku Jidai, a sort of a massive civil war where dozens of feudal clans fought against each other to succeed the remaints of the previous Shogunate. Several clans, like the Chosokame, the Otomo, the Oda and the Takeda, tried and failed to take a foothold of the seat of Kyoto, and it took the victory of Matsudaira Ietsuna at the brutal battle of Sekigahara against the Oda-Toyotomi coalition to finally bring peace. Since then, for over 150 years, the Tokugawa Shogunate has ruled from a new capital called Edo, to reflect the name of the nation and distinguish it from a new era, different from the one where brother fought brother.",
-        "startIntroPart2": "Now Edo has decided to send explorers outside of it. Their warriors are ready to defend their hard-earned peace, and the people are willing to keep up to the rest of the world, which approaches the Steam Age.",
-
-        "declaringWar": "As the Shogun, it falls to me to discipline you. Bow to the Matsudaira of Edo, and you may be spared.",
-		"attacked": "Do you realize that no one has ever defeated the Matsudaira? Or had you not heard? Then your lesson begins now.",
-		"defeated": "Under a dark cloud of death, a dynasty fades. Even the Matsudaira cannot resist this dark destiny.",
-		"denounced": "It is only by an inch of patience that my sword stays in the scabbard, else your head would have rolled from your shoulders.",
-		"introduction": "Greetings. You must be the newest servant of the Matsudaira of the Edo. No? Fine, I might use an ally for the time being.",
-		"neutralHello": "How are you today, my ally?",
-		"hateHello": "Choose your words well, my sword thirsts for blood.",
-		"tradeRequest": "My friend, do you think you can accept this request?",
-
-        	"outerColor": [8, 8, 166],
-		"innerColor": [249, 247, 3],
-
-		"uniqueName": "The Shining Golden Sun",
-		"uniques": ["[+1 Science] from each Trade Route", "[+1 Culture] from each City Center"],
-		"cities": ["Edo","Kyoto","Osaka","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
-			"Shimonoseki","Matsuyama","Sapporo","Yamato","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen",
-			"Echizen","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka",
-			"Aomori","Kamakura","Kochi","Naha"],
-        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
-
-    },
-	//
     
 
     // City States
@@ -328,4 +261,5 @@
 		"cities": ["Valletta"]
 	}
 ]
+
 
